@@ -4,9 +4,9 @@ body{
 	margin:0px;
 	}
 form > div{
-	padding:20px;
+	padding:10px;
 	}	
-.error{
+#error{
 	color:red;
-	padding:20px;
+	padding:10px;
 	}

@@ -9,10 +9,14 @@
 </head>
 
 <body>
-    <div>
+    <div>	
+    
+    	<div id="error">
+    	
+        </div>
         <form>
         	
-            	<p class="error"></p>
+            
     
         	<div>
         	<label for="name">Name</label>
@@ -54,9 +58,9 @@
             <div>
             <fieldset>
             	<legend>Extras</legend>
-                <label><input type="checkbox" name="extras" value="car">Baby Seat</label>
-                <label><input type="checkbox" name="extras" value="van">Wheelchair Access</label>
-                <label><input type="checkbox" name="extras" value="tuk">Stock Tip</label>
+                <label><input type="checkbox" name="extras" value="Baby Seat">Baby Seat</label>
+                <label><input type="checkbox" name="extras" value="Wheelchair">Wheelchair Access</label>
+                <label><input type="checkbox" name="extras" value="Stock Tip">Stock Tip</label>
             </fieldset>
         	</div>
             <div>
@@ -64,7 +68,7 @@
                 <textarea name="special" rows="4"></textarea>
             </div>
             <div>
-            	<input type="submit" value="Submit Booking" >
+            	<input type="submit" id="submitBtn" value="Submit Booking" >
             </div>
         </form>
     </div>
