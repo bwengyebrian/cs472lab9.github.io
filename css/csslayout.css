@@ -1,0 +1,86 @@
+body{
+	padding:0px;
+	margin:0px;
+	font-family: Garamond, serif;
+	font-size: 14pt;
+}
+.intro header{
+	height:200px;
+	opacity:0.9;
+	background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Hnd01gaCiu89hpk4/videoblocks-network-on-a-black-background-cinematic-plexus-background-seamless-loop_hagskxz4rm_thumbnail-full01.png");
+}
+header h1{
+	color:#FFAA00;
+	text-align:center;
+	font-size:50px;
+	padding-top:50px;
+	margin-bottom:10px;
+}
+header h2{
+	color:white;
+	font-style:italic;
+	text-align:center;
+	margin-top:0px;
+	
+	
+}
+section>div,.main>div{
+	padding-left:30px;
+	display:inline-block;
+	width:70%;
+}
+aside{
+	position:absolute;
+	display:inline-block;
+	width:25%;
+	height:auto;
+	left:75%;
+	top:250px;
+	
+	background-image:url("https://marketplace.canva.com/MAC_O9RA4io/1/thumbnail_large/canva-hessian-sackcloth-woven-texture-pattern-background-in-white-grey-color-MAC_O9RA4io.jpg");
+	 background-repeat: repeat-y;
+}
+footer{
+	background-color:#1A0D00;
+	height:100px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+aside ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+aside li {
+  padding-left:30px;
+  border-bottom: 1px solid #ccc;
+  font-family:italic;
+}
+ 
+aside li:last-child {
+  border: none;
+}
+ 
+aside li a {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  text-decoration: none;
+  color: #000;
+  display: block;
+ 
+}
+ 
+aside li a:hover {
+  font-size: 30px;
+  background: #f6f6f6;
+}
+aside h3 {
+	padding-left:20px;
+	color:#FFAA00;
+	font-size:30px;
+}
+footer a{
+	display:inline-block;
+	text-decoration: none;
+	padding-left:20px;
+}

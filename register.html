@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Brian Bwengye" />
+	<meta name="description" content="First website to display my details for Lab 1 WAP " />
+	<meta name="keywords" content="Brian , Brian Bwengye, WAP, Web Application Programing,Lab 1" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<title>HTML Regisration Form- Lab4 610158  Brian Bwengye </title>
+	<link rel="icon" type="image/png" href="images/favicon.png" >
+	<link rel="stylesheet" type="text/css" href="css/register.css" >
+
+</head>
+<body>
+<div class="content">
+	<nav>
+		<div class="inline heading">
+			<h2>Workshop Registration</h2>
+		</div>
+		<div class="inline action">
+			<form>
+				<label>More Action</label>
+				<select class="action-select">
+					<option>-</option>
+				</select>
+			</form>
+		</div>
+	</nav>
+	
+		<p class="aligned" >Register now while seats are available</p>
+		
+		<form>
+			<div class="row">
+			
+				<div class="column-6">
+					<div class="form-control">
+						<label class="form-lable" for ="firstName">First Name <span class="important"> * </span></label>
+						<input class="form-input" type="text" name="firstName" id="firstName">
+					</div>
+					<div class="form-control">
+						<label class="form-lable" for ="lastName">Last Name <span class="important"> * </span></label>
+						<input class="form-input" type="text" name="lastName" id="lastName">
+					</div>
+					<div class="form-control">
+						<label class="form-lable" for ="company">Company/Institution <span class="important"> * </span></label>
+						<input class="form-input" type="text" name="company" id="company">
+					</div>
+					<div class="form-control">
+						<label class="form-lable" for ="address">Address <span class="important"> * </span></label>
+						<textarea class="form-input" name="address" rows="5" id="address"></textarea>
+					</div>
+					<div class="form-control">
+						<label class="form-lable" for ="city">City </label>
+						<input class="form-input" type="text" name="city" id="city">
+					</div>
+					<div class="form-control">
+						<label class="form-lable" for ="state">State/Province/Region</label>
+						<select class="form-input form-select"  name="state" id="state">
+							<option value="" > -Select- </option>
+							<option value="IA">Iowa</option>
+						</select>
+					</div>
+					<div class="form-control">
+						<label class="form-lable" for ="country">Country</label>
+						<select class="form-input"  name="country" id="country">
+							<option value="" > -Select- </option>
+							<option value="usa">USA</option>
+						</select>
+					</div>
+					<div class="form-control">
+						<label class="form-lable" for ="email">Email </label>
+						<input class="form-input" type="email" name="email" id="email">
+					</div>
+					<div class="form-control">
+						<label class="form-lable" for ="phoneNumber">Phone Number </label>
+						<input class="form-input" type="text" name="phoneNumber" id="phoneNumber">
+					</div>
+				</div>
+				<div class="column-6">
+					<p class="aligned">Lunch</p>
+					<div class="form-control">
+						<label class="form-lable" for ="mealPreference">Meal Preference</label>
+						<select class="form-input"  name="mealPreference" id="mealPreference">
+							<option value = "vegiterian" >Vegiterian</option>
+						</select>
+					</div>
+					<p class="aligned">Payment Details</p>
+					<div class="form-control">
+						<label class="form-lable">Payment Mode</label>
+						<div class="radio-options">
+							<label class="lable-radio" ><input class="form-radio" type="checkbox" name="paymentMode" value="cash">Cash</label>
+							<label class="lable-radio"><input class="form-radio" type="checkbox" name="paymentMode" value="cheque" >Cheque</label>
+							<label class="lable-radio"><input class="form-radio" type="checkbox" name="paymentMode" value="demandDraft">Demand Draft</label>
+						</div>
+					</div>
+					<div class="form-control">
+						<label class="form-lable" for ="chequeNo">DD /Cheque No </label>
+						<input class="form-input" type="text" name="phoneNumber" id="chequeNo">
+					</div>
+					<div class="form-control">
+						<label class="form-lable" for ="drawnOn">Drawn On(Bank Name) </label>
+						<input class="form-input" type="text" name="drawnOn" id="drawnOn">
+					</div>
+					<div class="form-control">
+						<label class="form-lable" for ="payableAt">Payable at </label>
+						<input class="form-input" type="text" name="payableAt" id="payableAt">
+					</div>
+				</div>
+			</div>
+			
+			<div class="highlighted">
+				<input type="submit" class="btn" value="Submit">
+				<input type = "Reset" class= "btn" value="Reset" >
+			</div>
+		</form>
+		
+	
+	</div>
+	<div>
+		<a href="https://validator.w3.org/check/referer">  <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator"/></a>
+		<a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="http://mumstudents.org/cs472/2013-09/images/w3c-css.png" alt="css validator" /></a>
+	</div>	
+</body>
+</html>
