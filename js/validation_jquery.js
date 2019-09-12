@@ -1,7 +1,7 @@
 // JavaScript Document
 $(function(){
 	
-	$('#submitBtn').click(function(){
+	$('#bookingForm').submit(function(){
 		var errorDiv = $('#error');
 		var seats = $('#seats').val();
 		var taxi = $("input[name='taxi']:checked").val();
